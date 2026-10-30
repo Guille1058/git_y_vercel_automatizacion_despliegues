@@ -6,9 +6,9 @@
 .page-shell {
   align-items: center;
   background:
-    radial-gradient(ellipse at 12% 10%, rgb(255 235 198 / 58%), transparent 34rem),
-    radial-gradient(ellipse at 90% 95%, rgb(221 104 28 / 24%), transparent 30rem),
-    linear-gradient(135deg, #f3a45b, #f7bd78);
+    radial-gradient(ellipse at 12% 10%, rgb(219 234 254 / 72%), transparent 34rem),
+    radial-gradient(ellipse at 90% 95%, rgb(96 165 250 / 24%), transparent 30rem),
+    linear-gradient(135deg, #bfdbfe, #e0f2fe);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -18,9 +18,9 @@
 
 .welcome-card {
   background: #fff;
-  border: 1px solid #f2e7dc;
+  border: 1px solid #dbe7f5;
   border-radius: 1.25rem;
-  box-shadow: 0 24px 70px rgb(93 53 24 / 8%);
+  box-shadow: 0 24px 70px rgb(30 64 115 / 10%);
   max-width: 560px;
   padding: clamp(2rem, 7vw, 3.75rem);
   width: 100%;
@@ -28,9 +28,9 @@
 
 .brand-mark {
   align-items: center;
-  background: #fff0e2;
+  background: #e8f1ff;
   border-radius: 0.9rem;
-  color: #b54708;
+  color: #2457a6;
   display: flex;
   font-size: 1.35rem;
   font-weight: 800;
@@ -41,7 +41,7 @@
 }
 
 .eyebrow {
-  color: #8a6047;
+  color: #526b8b;
   font-size: 0.76rem;
   font-weight: 700;
   letter-spacing: 0.1em;
@@ -50,7 +50,7 @@
 }
 
 h1 {
-  color: #32251e;
+  color: #172b4d;
   font-size: clamp(2.25rem, 7vw, 3.25rem);
   letter-spacing: -0.055em;
   line-height: 1.08;
@@ -58,7 +58,7 @@ h1 {
 }
 
 .welcome-message {
-  color: #6e625b;
+  color: #53647a;
   font-size: 1rem;
   line-height: 1.7;
   margin: 1rem 0 2rem;
@@ -66,7 +66,7 @@ h1 {
 }
 
 .page-note {
-  color: #8a7b72;
+  color: #526b8b;
   font-size: 0.8rem;
   margin: 1.4rem 0 0;
   text-align: center;

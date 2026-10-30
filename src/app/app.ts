@@ -10,5 +10,5 @@ import { Header } from './header/header';
 export class App {
   protected readonly title = 'Proyecto Despliegues con Angular';
   protected readonly welcomeMessage =
-    'Bienvenido a la aplicación. Aquí podrás consultar el estado de tu espacio de trabajo para realizar todas las pruebas de calidad necesarias.';
+    'Bienvenido al entorno de pruebas de aceptación de usuario. Valida los flujos principales y confirma que la aplicación responde a las necesidades del usuario antes de su lanzamiento.';
 }
