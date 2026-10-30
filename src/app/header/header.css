@@ -1,0 +1,32 @@
+:host {
+  display: block;
+}
+
+.app-header {
+  align-items: center;
+  background: #fffbf7;
+  border: 1px solid #f2e7dc;
+  border-radius: 0.85rem;
+  display: flex;
+  gap: 0.8rem;
+  padding: 1rem 1.1rem;
+}
+
+.header-mark {
+  align-items: center;
+  background: #fff0e2;
+  border-radius: 0.65rem;
+  color: #b54708;
+  display: inline-flex;
+  font-size: 0.95rem;
+  font-weight: 800;
+  height: 2.25rem;
+  justify-content: center;
+  width: 2.25rem;
+}
+
+.header-title {
+  color: #4c382d;
+  font-size: 0.9rem;
+  font-weight: 700;
+}

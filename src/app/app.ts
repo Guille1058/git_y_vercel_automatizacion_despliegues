@@ -1,12 +1,14 @@
-import { Component, signal } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { Component } from '@angular/core';
+import { Header } from './header/header';
 
 @Component({
-  imports: [RouterOutlet],
+  imports: [Header],
   selector: 'app-root',
   styleUrl: './app.css',
   templateUrl: './app.html',
 })
 export class App {
-  protected readonly title = signal('proyecto_test');
+  protected readonly title = 'Proyecto Despliegues con Angular';
+  protected readonly welcomeMessage =
+    'Bienvenido a la aplicación. Aquí podrás consultar el estado de tu espacio de trabajo para realizar todas las pruebas de calidad necesarias.';
 }
