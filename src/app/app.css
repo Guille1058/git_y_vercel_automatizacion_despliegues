@@ -1,0 +1,73 @@
+:host {
+  display: block;
+  min-height: 100vh;
+}
+
+.page-shell {
+  align-items: center;
+  background:
+    radial-gradient(ellipse at 12% 10%, rgb(220 252 231 / 68%), transparent 34rem),
+    radial-gradient(ellipse at 90% 95%, rgb(22 101 52 / 24%), transparent 30rem),
+    linear-gradient(135deg, #86c99b, #b8e3c3);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 2rem 1.25rem;
+}
+
+.welcome-card {
+  background: #fff;
+  border: 1px solid #d8eadc;
+  border-radius: 1.25rem;
+  box-shadow: 0 24px 70px rgb(25 74 42 / 10%);
+  max-width: 560px;
+  padding: clamp(2rem, 7vw, 3.75rem);
+  width: 100%;
+}
+
+.brand-mark {
+  align-items: center;
+  background: #e8f5eb;
+  border-radius: 0.9rem;
+  color: #23713d;
+  display: flex;
+  font-size: 1.35rem;
+  font-weight: 800;
+  height: 3rem;
+  justify-content: center;
+  margin-bottom: 2.25rem;
+  width: 3rem;
+}
+
+.eyebrow {
+  color: #52745b;
+  font-size: 0.76rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  margin: 0 0 0.65rem;
+  text-transform: uppercase;
+}
+
+h1 {
+  color: #1d3925;
+  font-size: clamp(2.25rem, 7vw, 3.25rem);
+  letter-spacing: -0.055em;
+  line-height: 1.08;
+  margin: 0;
+}
+
+.welcome-message {
+  color: #536b58;
+  font-size: 1rem;
+  line-height: 1.7;
+  margin: 1rem 0 2rem;
+  max-width: 390px;
+}
+
+.page-note {
+  color: #52745b;
+  font-size: 0.8rem;
+  margin: 1.4rem 0 0;
+  text-align: center;
+}

@@ -17,8 +17,10 @@ describe('App', () => {
 
   it('should render title', async () => {
     const fixture = TestBed.createComponent(App);
+    fixture.detectChanges();
     await fixture.whenStable();
     const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('h1')?.textContent).toContain('Hello, proyecto_test');
+    expect(compiled.querySelector('h1')?.textContent).toContain('Proyecto Test');
+    expect(compiled.querySelector('app-header .header-title')?.textContent).toContain('Proyecto Test');
   });
 });
